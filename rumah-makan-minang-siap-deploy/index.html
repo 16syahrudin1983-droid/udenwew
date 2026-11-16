@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumah Makan Minang - Cita Rasa Otentik Ranah Minang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">
+                <div class="brand-symbol">◆</div>
+                <div class="brand-text">
+                    <span class="brand-title">MINANG</span>
+                    <span class="brand-subtitle">Rumah Makan Otentik</span>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#menu">Daftar Menu</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#lokasi">Lokasi & Jam</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="cart-btn" id="openCartBtn">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+                <a href="#menu" class="btn btn-primary nav-cta">Pesan Sekarang</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content">
+            <div class="badge">Warisan Rempah Nusantara</div>
+            <h1 class="hero-title">Rendang Gurih, Gulai Kental, & Sambal Lado Asli Minangkabau.</h1>
+            <p class="hero-desc">
+                Disajikan dengan tradisi ranah Minang turun-temurun. Menggunakan santan segar, daging sapi pilihan, serta racikan rempah murni tanpa kompromi.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#menu" class="btn btn-gold">Lihat Menu Lengkap</a>
+                <a href="#lokasi" class="btn btn-outline">Kunjungi Outlet</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Varian Lauk Otentik</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Bahan Segar & Halal</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">8 Jam</span>
+                    <span class="stat-label">Proses Masak Rendang</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Features -->
+    <section class="features" id="layanan">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🍛</div>
+                <h3>Tradisi Hidang Langsung</h3>
+                <p>Nikmati sensasi bersantap khas Minang dengan puluhan piring lauk tersusun rapi di meja Anda.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌶️</div>
+                <h3>Rempah Asli Bukittinggi</h3>
+                <p>Didatangkan langsung dari Sumatera Barat untuk mempertahankan aroma dan ketajaman rasa aslinya.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📦</div>
+                <h3>Katering & Nasi Kotak</h3>
+                <p>Melayani pesanan partai besar untuk acara kantor, syukuran, pernikahan, hingga rapat keluarga.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Pilihan Favorit</div>
+                <h2 class="section-title">Menu Andalan Kami</h2>
+                <p class="section-desc">Pilih menu favorit Anda dan langsung masukkan ke keranjang untuk pemesanan cepat via WhatsApp.</p>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="menu-filters">
+                <button class="filter-btn active" data-category="all">Semua Menu</button>
+                <button class="filter-btn" data-category="daging">Daging & Ayam</button>
+                <button class="filter-btn" data-category="seafood">Ikan & Seafood</button>
+                <button class="filter-btn" data-category="gulai">Gulai & Sayur</button>
+                <button class="filter-btn" data-category="minuman">Minuman Khas</button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menuGrid">
+                <!-- Injected via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Story -->
+    <section class="about-section" id="tentang">
+        <div class="container about-wrapper">
+            <div class="about-text">
+                <div class="badge">Filosofi Dapur Kami</div>
+                <h2>"Lamun Raso Alah Masuak, Hilang Sagalo Panek"</h2>
+                <p>
+                    Rumah Makan Minang bermula dari resep keluarga turun-temurun sejak puluhan tahun silam. 
+                    Kami menjaga teknik karamelisasi santan perlahan di atas tungku api kecil untuk menghasilkan rendang hitam pekat bertekstur empuk yang kaya rasa.
+                </p>
+                <p>
+                    Setiap piring yang kami hidangkan bukan sekadar makanan, melainkan penghormatan atas kekayaan budaya kuliner Minangkabau yang mendunia.
+                </p>
+                <div class="about-quote">
+                    <span>"Tak sekadar kenyang, tapi membangkitkan kerinduan pada masakan kampung halaman."</span>
+                </div>
+            </div>
+            <div class="about-card-badge">
+                <div class="stamp-icon">⭐</div>
+                <h3>Kualitas Juara</h3>
+                <p>Minyak kelapa murni, cabai merah segar pilihan, daging sapi lokal berkualitas premium.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Hours -->
+    <section class="location-section" id="lokasi">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Kunjungan Langsung</div>
+                <h2 class="section-title">Lokasi & Jam Operasional</h2>
+                <p class="section-desc">Pintu kami selalu terbuka menyambut Anda dan keluarga setiap hari.</p>
+            </div>
+
+            <div class="location-grid">
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Alamat Utama</h3>
+                    <p>Jl. Boulevard Raya No. 45, Kawasan Kuliner Nusantara</p>
+                    <p class="text-muted">Tersedia area parkir luas & musholla ber-AC</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🕒</div>
+                    <h3>Jam Buka</h3>
+                    <p><strong>Senin - Minggu:</strong> 09.00 - 22.00 WIB</p>
+                    <p class="text-muted">Siap hidang sepanjang hari tanpa jeda</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <h3>Kontak & Katering</h3>
+                    <p><strong>WhatsApp:</strong> +62 812-3456-7890</p>
+                    <p class="text-muted">Layanan pesan antar & nasi box h-1</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Cart Drawer -->
+    <div class="cart-drawer-overlay" id="cartOverlay"></div>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h3>Keranjang Pesanan</h3>
+            <button class="close-cart-btn" id="closeCartBtn">&times;</button>
+        </div>
+        <div class="cart-body" id="cartItemsContainer">
+            <!-- Dynamic Items -->
+            <div class="cart-empty-state">Keranjang Anda masih kosong.</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total Estimasi:</span>
+                <span class="cart-total-price" id="cartTotalPrice">Rp 0</span>
+            </div>
+            <button class="btn btn-gold btn-block" id="checkoutBtn">Pesan via WhatsApp</button>
+            <button class="btn btn-text btn-block" id="clearCartBtn">Kosongkan Keranjang</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="brand-title">RUMAH MAKAN MINANG</div>
+                <p>Kenikmatan rempah sejati dari Ranah Minang ke meja Anda.</p>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Rumah Makan Minang. Seluruh Hak Cipta Dilindungi.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
